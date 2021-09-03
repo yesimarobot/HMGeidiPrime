@@ -10,6 +10,10 @@ import {
   IonIcon,
   IonSearchbar,
   IonCard,
+  IonCardHeader,
+  IonCardSubtitle,
+  IonCardTitle,
+  IonCardContent,
 } from "@ionic/react";
 import { chevronBack } from "ionicons/icons";
 
