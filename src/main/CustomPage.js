@@ -9,6 +9,7 @@ import {
   IonBackButton,
   IonIcon,
   IonSearchbar,
+  IonCard,
 } from "@ionic/react";
 import { chevronBack } from "ionicons/icons";
 
@@ -84,7 +85,6 @@ const CustomPage = (props) => {
             </IonToolbar>
           </IonHeader>
         )}
-        {mainContent}
         <IonCard>
           <IonCardHeader>
             <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
@@ -97,6 +97,22 @@ const CustomPage = (props) => {
             spirit clean.
           </IonCardContent>
         </IonCard>
+
+        <IonCard>
+          <IonItem>
+            <IonIcon icon={pin} slot="start" />
+            <IonLabel>ion-item in a card, icon left, button right</IonLabel>
+            <IonButton fill="outline" slot="end">
+              View
+            </IonButton>
+          </IonItem>
+
+          <IonCardContent>
+            This is content, without any paragraph or header tags, within an
+            ion-cardContent element.
+          </IonCardContent>
+        </IonCard>
+        {mainContent}
       </IonContent>
     </>
   );
