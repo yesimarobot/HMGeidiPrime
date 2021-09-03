@@ -9,13 +9,17 @@ import {
   IonBackButton,
   IonIcon,
   IonSearchbar,
+  IonPage,
   IonCard,
   IonCardHeader,
   IonCardSubtitle,
   IonCardTitle,
   IonCardContent,
+  IonItem,
+  IonLabel,
+  IonButton,
 } from "@ionic/react";
-import { chevronBack } from "ionicons/icons";
+import { chevronBack, pin, wifi, wine, warning, walk } from "ionicons/icons";
 
 const CustomPage = (props) => {
   const mainContent = props.children;
